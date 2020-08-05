@@ -11,7 +11,7 @@ var wrong = new Audio("sounds/wrong.mp3");
 var audios = {"green":green_audio, "red":red_audio, "yellow":yellow_audio, "blue":blue_audio};
 
 //Starting and Restarting the game
-$(document).keydown(function(){
+$(document).click(function(){
   setTimeout(function(){
     if(level === 0)
       nextOne();
